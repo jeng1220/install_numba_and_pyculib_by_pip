@@ -40,7 +40,7 @@ $ pip install pyculib
 $ pip install scipy
 ```
 
-Download pyculib_soring, build and install it manually. Before building, have to modify “build_sorting_libs.py” in order to fit GPU architecture.
+Download [pyculib_soring](https://github.com/numba/pyculib_sorting), build and install it manually. Before building, have to modify “build_sorting_libs.py” in order to fit GPU architecture.
 
 ```diff
 # assume GPU architecture is 6.1
