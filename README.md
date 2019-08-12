@@ -77,6 +77,11 @@ Make a soft-link for sorting library of pyculib.
 ln -s ./lib/pyculib_radixsort.so /usr/lib/pyculib_radixsort.so
 ln -s ./lib/pyculib_segsort.so   /usr/lib/pyculib_segsort.so
 ```
+or 
+```shell
+ln -s ./lib/pyculib_radixsort.so /usr/local/lib/python3.6/dist-packages/pyculib/sorting/pyculib_radixsort.so
+ln -s ./lib/pyculib_segsort.so /usr/local/lib/python3.6/dist-packages/pyculib/sorting/pyculib_segsort.so
+```
 
 First pyculib example
 
